@@ -1,0 +1,38 @@
+/* For screens wider than 768px (tablet and above) */
+@media (min-width: 768px) {
+  .image-carousel {
+    height: 430px;
+    width: 400px;
+    border-radius: 5px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+}
+
+/* For screens between 576px and 767px (small tablets and large phones) */
+@media (max-width: 767px) and (min-width: 576px) {
+  .image-carousel {
+    height: 350px;
+    width: 300px;
+    border-radius: 4px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+}
+
+/* For screens less than 576px (mobile devices) */
+@media (max-width: 575px) {
+  .image-carousel {
+    height: 250px;
+    width: 200px;
+    border-radius: 3px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+}

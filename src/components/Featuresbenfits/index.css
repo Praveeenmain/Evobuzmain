@@ -1,0 +1,42 @@
+/* FeaturesAndBenefits.css */
+.features-benefits-section {
+    background-color: transparent; /* Light background color for contrast */
+    color: #000000; /* Dark text color for readability */
+  }
+  .FeatureHeading{
+    font-size: 25px;
+    color: #cdcdcd;
+  }
+  .features-benefits-section h2 {
+    font-size: 2rem; /* Large heading */
+    margin-bottom: 1.5rem; /* Spacing below heading */
+  }
+  
+  .features-benefits-section h3 {
+    font-size: 1.5rem; /* Subheading size */
+    margin-bottom: 1rem; /* Spacing below subheading */
+    color: #cdcdcd;
+  }
+  
+  .features-benefits-section ul li {
+    margin-bottom: 1rem; /* Spacing between list items */
+  }
+  .list-unstyled{
+    padding:5px;
+    border: 1px  solid #514e4e ;
+    background-color: transparent;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color:aliceblue
+  }
+  
+  @media (max-width: 768px) {
+    .features-benefits-section h2 {
+      font-size: 1.5rem; /* Adjust for smaller screens */
+    }
+  
+    .features-benefits-section h3 {
+      font-size: 1.25rem; /* Adjust for smaller screens */
+    }
+  }
+  

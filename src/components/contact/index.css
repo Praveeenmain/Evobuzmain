@@ -1,0 +1,76 @@
+/* Contact.css */
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Aligns children vertically */
+    justify-content: flex-start; /* Aligns children at the start of the container */
+  }
+  
+  /* Header styling */
+  h1 {
+    color: aliceblue;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form control styling */
+  .contact-form .form-control {
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 1rem; /* Padding inside the input */
+    font-size: 1rem; /* Font size */
+    background: rgba(182, 178, 178, 0.6); /* Background color */
+    color: #fff; /* Text color */
+    border: 1px solid #ccc; /* Border color */
+    transition: border-color 0.3s ease;
+    margin-bottom: 1rem; /* Space between form fields */
+  }
+  
+  /* Focus state for form controls */
+  .contact-form .form-control:focus {
+    outline: none;
+    border-color: #007bff; /* Focus border color */
+  }
+  
+  /* Button styling */
+  .contact-form .btn-primary {
+    background-color: #6f42c1; /* Purple */
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 1rem; /* Space above the button */
+  }
+  
+  /* Button hover effect */
+  .contact-form .btn-primary:hover {
+    background-color: #5a3b8c; /* Darker Purple on Hover */
+    transform: scale(1.05); /* Scale up slightly on hover */
+  }
+  
+  /* Success message styling */
+  .text-success {
+    color: #d4edda; /* Green success message color */
+    text-align: center; /* Center the success message */
+    margin-top: 1rem; /* Space above the success message */
+  }
+  
+  /* Error message styling */
+  .text-danger {
+    color: #f8d7da; /* Red error message color */
+    text-align: center; /* Center the error message */
+    margin-top: 1rem; /* Space above the error message */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .contact-form {
+      padding: 1.5rem;
+      max-width: 90%;
+    }
+  }
+  

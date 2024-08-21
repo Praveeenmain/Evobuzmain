@@ -1,0 +1,47 @@
+/* CTASections.css */
+.cta-sections {
+    background-color: transparent; /* White background for contrast */
+    color: #333; /* Dark text color */
+  }
+  
+  .cta-sections h2 {
+    font-size: 1.75rem; /* Heading size */
+    margin-bottom: 1rem; /* Spacing below heading */
+  }
+  
+  .cta-sections p {
+    font-size: 1rem; /* Text size */
+    margin-bottom: 1.5rem; /* Spacing below text */
+  }
+  
+  .cta-card {
+    background-color: transparent; /* Light background for cards */
+    color: aliceblue;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 2rem; /* Padding inside cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .vendor-cta {
+    border-left: 5px solid #007bff; /* Blue accent for vendor CTA */
+  }
+  
+  .customer-cta {
+    border-left: 5px solid #28a745; /* Green accent for customer CTA */
+  }
+  
+  .cta-card .btn {
+    margin-top: 1rem; /* Spacing above buttons */
+  }
+  
+  @media (max-width: 768px) {
+    .cta-sections h2 {
+      font-size: 1.5rem; /* Adjust for smaller screens */
+    }
+  
+    .cta-sections p {
+      font-size: 0.875rem; /* Adjust for smaller screens */
+    }
+  }
+  

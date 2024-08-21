@@ -1,0 +1,49 @@
+/* AboutUs.css */
+.about-us {
+    background-color: transparent; /* Light background for the section */
+    color: #333; /* Dark text color */
+  }
+  
+  .about-us h2 {
+    font-size: 2rem; /* Large heading */
+    margin-bottom: 2rem; /* Spacing below heading */
+    color: aliceblue;
+  }
+  
+  .about-section {
+    background-color: transparent; /* White background for sections */
+    color: aliceblue;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 1.5rem; /* Padding inside sections */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .about-section h3 {
+    font-size: 1.5rem; /* Section heading size */
+    margin-bottom: 1rem; /* Spacing below heading */
+  }
+  
+  .about-section p, .about-section ul {
+    font-size: 1rem; /* Text size */
+  }
+  
+  .about-section ul {
+    list-style-type: disc; /* Bulleted list */
+    padding-left: 1.5rem; /* Indentation for list items */
+  }
+  
+  .about-section li {
+    margin-bottom: 0.5rem; /* Spacing between list items */
+  }
+  
+  @media (max-width: 768px) {
+    .about-us h2 {
+      font-size: 1.5rem; /* Adjust for smaller screens */
+    }
+  
+    .about-section h3 {
+      font-size: 1.25rem; /* Adjust for smaller screens */
+    }
+  }
+  

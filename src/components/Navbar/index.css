@@ -1,0 +1,60 @@
+/* Navbar Transparent Background */
+.navbar-transparent {
+    background-color: transparent !important;
+  }
+  
+  /* Navbar Toggle Button White */
+  .navbar-toggler-white {
+    border: 1px solid #fff; /* Optional: Add border to the toggler button */
+    border:none
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="%23fff" stroke-width="2" d="M5 7h20M5 15h20M5 23h20"/%3E%3C/svg%3E'); /* White toggle icon */
+  }
+  
+  /* Navbar Text Color White */
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #fff;
+  }
+  
+  /* Button Color (Ensure it stands out against the transparent background) */
+  .btn-primary {
+    background-color: #007bff; /* You can customize this color */
+    border-color: #007bff;
+  }
+  /* index.css */
+.navbar-logo {
+  height: 40px; /* Adjust the size as needed */
+  width: auto;  /* Maintain aspect ratio */
+}
+
+/* index.css */
+
+/* Ensure logo and text are centered and aligned on mobile */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-logo {
+  height: 30px; /* Adjust height for mobile */
+  width: auto;  /* Maintain aspect ratio */
+}
+
+.navbar-nav {
+  text-align: center; /* Center nav items on mobile */
+}
+
+
+
+.navbar-toggler {
+  border-color: transparent; /* Optional: Remove border color for better appearance */
+}
+
+

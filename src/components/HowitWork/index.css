@@ -1,0 +1,34 @@
+/* HowItWorks.css */
+.how-it-works-section {
+    background-color:transparent; /* White background for clarity */
+    color: #333; /* Dark text color */
+  }
+  
+  .how-it-works-section h2 {
+    font-size: 2rem; /* Large heading */
+    margin-bottom: 1.5rem; /* Spacing below heading */
+    color: aliceblue;
+
+  }
+  
+  .how-it-works-section h3 {
+    font-size: 1.5rem; /* Subheading size */
+    margin-bottom: 1rem; /* Spacing below subheading */
+    color: aliceblue;
+  }
+  
+  .how-it-works-section ul li {
+    margin-bottom: 1rem; /* Spacing between list items */
+  }
+  
+  @media (max-width: 768px) {
+    .how-it-works-section h2 {
+      font-size: 1.5rem; /* Adjust for smaller screens */
+
+    }
+  
+    .how-it-works-section h3 {
+      font-size: 1.25rem; /* Adjust for smaller screens */
+    }
+  }
+  

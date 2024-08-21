@@ -1,0 +1,52 @@
+/* UpcomingFeatures.css */
+.upcoming-features {
+    background-color:transparent; /* Light background color */
+    color: #333; /* Dark text color */
+  }
+  
+  .upcoming-features h2 {
+    font-size: 2rem; /* Large heading */
+    margin-bottom: 1.5rem; /* Spacing below heading */
+    color: aliceblue;
+    text-align: left;
+  }
+  
+  .feature-card {
+    background-color: transparent; /* White background for cards */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 5px; /* Padding inside cards */
+    text-align: center; /* Center-align text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: aliceblue;
+  }
+  .image-carousel-1{
+    width:100%;
+    padding-bottom: 5px;
+  }
+  .image-carousel-2{
+    width:100%;
+    height:500px
+  }
+  .feature-card h3 {
+    font-size: 1.5rem; /* Heading size */
+    margin-bottom: 1rem; /* Spacing below heading */
+  }
+  
+  .feature-card p {
+    font-size: 1rem; /* Adjust text size */
+  }
+  
+  @media (max-width: 768px) {
+    .upcoming-features h2 {
+      font-size: 1.5rem; /* Adjust for smaller screens */
+    }
+  
+    .feature-card h3 {
+      font-size: 1.25rem; /* Adjust for smaller screens */
+    }
+    .image-carousel-2{
+      height:280px;
+    }
+  }
+  

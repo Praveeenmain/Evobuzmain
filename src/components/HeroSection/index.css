@@ -1,0 +1,33 @@
+/* HeroSection.css */
+.hero-section {
+    background-color:transparent;
+    background-size: cover;
+    background-position: center;
+    color: white; /* Ensure text is readable */
+  
+  }
+  
+  .hero-section .display-4 {
+    font-size: 2.5rem; /* Adjust for large screens */
+    margin-bottom: 0.5rem; /* Add space below headline */
+  }
+  
+  .hero-section .lead {
+    font-size: 1.25rem; /* Adjust for the subheadline */
+    margin-bottom: 2rem; /* Add space below subheadline */
+  }
+  
+  .cta-buttons .btn {
+    margin: 0.5rem; /* Add margin to buttons for spacing */
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section .display-4 {
+      font-size: 2rem; /* Adjust for smaller screens */
+    }
+  
+    .hero-section .lead {
+      font-size: 1rem; /* Adjust for smaller screens */
+    }
+  }
+  
